@@ -1777,15 +1777,26 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Outro text
-
-    Sve sam ja uradio xd
-
-    Svaka mi cast
+  m_text: 'This game was created for the Nordeus Full Stack Challenge.
 
 
-    THANK YOU
-    FOR PLAYING'
+    It was
+    developed as a full-stack project from start to finish.
+
+
+    All gameplay systems
+    and features were implemented within the scope of the challenge.
+
+
+    A lot
+    of care went into making the experience complete and functional.
+
+
+    The project
+    was built by Andrija Ivkovic.
+
+
+    THANK YOU FOR PLAYING'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: baded006140c17a4caad0fbc5237d55e, type: 2}
   m_sharedMaterial: {fileID: 3884319177662181688, guid: baded006140c17a4caad0fbc5237d55e, type: 2}

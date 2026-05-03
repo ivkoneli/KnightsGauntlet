@@ -16,7 +16,7 @@ public static class ApiClient
         {
             if (_baseUrl != null) return _baseUrl;
             var settings = Resources.Load<GameSettings>("GameSettings");
-            _baseUrl = settings != null ? settings.apiBaseUrl.TrimEnd('/') : "http://localhost:8000";
+            _baseUrl = settings != null ? settings.apiBaseUrl.TrimEnd('/') : "https://knights-gauntlet-production.up.railway.app";
             return _baseUrl;
         }
     }

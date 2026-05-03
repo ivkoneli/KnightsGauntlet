@@ -1,19 +1,28 @@
-"# KnightsGauntlet" 
-Turn-Based RPG Game
-Overview
-Simple turn-based RPG game built as a full-stack application
-Player fights through a sequence of 5 different monsters
-Focus on gameplay progression and ability acquisition
-Gameplay
-Turn-based combat system (player vs monster)
-Each turn, the player selects an action, followed by the monster’s response
-After defeating a monster, the player learns one of its abilities at random
-Player can equip learned abilities before the next fight
-Fights can be replayed to gain better outcomes or different abilities
-Tech Stack
-Frontend: Unity Engine (C#)
-Backend: FastAPI (Python)
-Backend hosting: Railway
-Notes
-Combines client-side gameplay logic with backend-driven configuration
-Designed to be simple, modular, and easy to extend
+# Turn-Based RPG Game ( kNIGHTS GAUNTLET )
+
+## Overview
+
+This is a full-stack turn-based RPG game where the player progresses through a series of battles against five different monsters.  
+The core idea is to gradually build a stronger moveset by learning abilities from defeated enemies and adapting strategy between fights.
+
+## Gameplay
+
+- Turn-based combat between the player and a monster
+- Player selects an action each turn, followed by the monster’s response calculated by the backend logic
+- Each monster has unique abilities and behavior
+- After winning a fight, the player learns one random ability from that monster and gains experience
+- Before the next fight, the player can adjust their moveset
+- Fights are replayable to experiment with different outcomes and builds
+
+## Tech Stack
+
+- Frontend: Unity Engine (C#)
+- Backend: FastAPI (Python)
+- Hosting: Railway
+
+## Structure
+
+- Unity client handles gameplay, UI, and player interaction
+- FastAPI backend provides game configuration and data
+- Clear separation between client logic and backend services
+- Possible to alter and expand game logic in the future 
